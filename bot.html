@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Command Line Chatbot</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    setTimeout(function() {
+        window.close(); // Close the homepage after 1 minute
+        window.location.href = "index.html"; // Redirect to index.html
+    }, 80000);
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div id="chat-box"></div>
+    <div class="input-line">
+      <span>&gt;</span>
+      <input type="text" id="user-input" placeholder="Type a command...">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
