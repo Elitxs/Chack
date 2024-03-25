@@ -1,2 +1,0 @@
-# Chack
-Command hack
